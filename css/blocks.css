@@ -1,0 +1,17 @@
+.card {
+	/* max-width: 450px; */
+	width: var(--card-size);
+	overflow: hidden;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+	cursor: pointer;
+	font-weight: var(--fw-700);
+	border: 0;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	padding: 1em 2em;
+	background-color: transparent;
+	color: var(--clr-neutral-100);
+}

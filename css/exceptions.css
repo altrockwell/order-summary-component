@@ -1,0 +1,21 @@
+.btn[data-type='primary'] {
+	background-color: var(--clr-primary-400);
+	color: var(--clr-neutral-100);
+	box-shadow: 0 15px 10px 0 hsla(245, 75%, 52%, 25%);
+}
+
+.btn[data-type='primary']:hover,
+.btn[data-type='primary']:focus {
+	background-color: var(--clr-primary-300);
+	color: var(--clr-neutral-100);
+}
+
+.btn[data-type='naked'] {
+	color: var(--clr-neutral-400);
+	padding-bottom: 0;
+}
+
+.btn[data-type='naked']:hover,
+.btn[data-type='naked']:focus {
+	color: var(--clr-neutral-800);
+}
